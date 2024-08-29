@@ -9,10 +9,11 @@ const PlayerControls = () => {
             <p>{music.currentTrackName}</p>
         </div>
         <button onClick={music.playPreviousTrack}>Previous </button>
-        <button onClick={music.togglePlay}>{music.isPlaying ? "pause" : <PlayArrow /> }</button>
-        <button onClick={music.playPreviousTrack}>Next </button>
-
+        <button onClick={music.togglePlay}>
+            {music.isPlaying ? "pause" : <PlayArrow /> }
+            </button>
+        <button onClick={music.playNextTrack}>Next</button>
         </>
-    )
+    );
 };
-export { PlayerControls}
+export { PlayerControls};
