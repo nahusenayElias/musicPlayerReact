@@ -9,7 +9,7 @@ const TrackList = () => {
         <div key={`${track.name}_${index}`}>
           <button onClick={() => music.playTrack(index)}>
             {music.isPlaying && music.currentTrackIndex === index ? (
-               "Pause" 
+               "Pause"
                ) : (
               <span className="material-icons-outlined">play_arrow</span>
                )}
@@ -20,6 +20,6 @@ const TrackList = () => {
     </>
   );
 };
- 
+
 export { TrackList };
  

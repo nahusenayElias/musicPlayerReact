@@ -28,6 +28,12 @@
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "tailwindcss": "^4.1.4",
     "vite": "^5.4.1"
-  }
+  },
+  "description": "A simple and customizable media player built with React and Vite. This project demonstrates how to create a video (or audio) player app with playlist support, leveraging the fast development experience of Vite and the component-based architecture of React.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
